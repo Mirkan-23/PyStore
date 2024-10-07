@@ -1,0 +1,15 @@
+boek
+muur
+vis
+hond
+kat
+maan
+boot
+trein
+appel
+lamp
+stoel
+huis
+sneeuw
+bal
+zon
