@@ -8,6 +8,7 @@ def raadhetgetalgame():
 
     Getal1 = int(input('Voer het 1e getal in: '))
     Getal2 = int(input('Voer het 2e getal in: '))
+    print(f"Het getal dat je gaat raden zit tussen de {Getal1} en {Getal2}")
     WillekeurigeGok = random.randrange(Getal1, Getal2 + 1)
     kansen = 5
     for A in range(1, kansen + 1):

@@ -4,7 +4,7 @@ import random
 
 def welkom():
     naam = input("Wat is je naam: ")
-    print(f"Hallo {naam}, welkom bij galgje")
+    print(f"Hallo {naam}, welkom bij galgje. Je hebt totaal 10 kansen ongeacht het moeilijkheid van het woordje")
 
 def spel():
     welkom()
@@ -37,7 +37,7 @@ def spel():
 
         if invoer not in gekozenwoord:
             kansen -= 1
-            print(f"Je hebt nog {kansen} over.")
+            print(f"Het letter {invoer} is fout, je hebt nog {kansen} kansen over.")
 
     if kansen == 0:
             print(f"Helaas, je hebt verloren, het juiste woord was: {gekozenwoord}")
