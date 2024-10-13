@@ -4,7 +4,7 @@ import random
 
 def raadhetgetalgame():
 
-    print("Welkom bij raad het getal, geef twee getallen op, het juiste getal ligt ertussen en dat ga je raden.\nLet op! Je mag zelf kiezen hoe hoog het maximale getal is, maar de kansen blijven op 5!")
+    print("Welkom bij raad het getal, geef twee getallen op, het juiste getal ligt er tussen en dat ga je raden.\nLet op! Je mag zelf kiezen hoe hoog het maximale getal is, maar de kansen blijven op 5!")
 
     Getal1 = int(input('Voer het 1e getal in: '))
     Getal2 = int(input('Voer het 2e getal in: '))
